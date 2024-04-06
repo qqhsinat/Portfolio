@@ -1,0 +1,275 @@
+
+@media(min-width:951px) {
+    .hi{
+        font-size: 75px;
+    }
+    .occupation{
+        font-size: 120px;
+    }
+    .place{
+        font-size:75px;
+    }
+    .about{
+        font-size:20px;
+    }
+    .skillstech{
+        font-size:50px;
+    }
+    p{
+        font-size:20px;
+    }
+    .card-title{
+        font-size:20px;
+    }
+    .contactform{
+        max-width:50%;
+    }
+}
+
+
+@media (max-width: 950px) {
+    .image{
+        display: none;
+    }
+    .myImg{
+        display:none;
+    }
+    .content{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hi{
+        font-size: 60px;
+    }
+    .occupation{
+        font-size: 100px;
+    }
+    .place{
+        font-size:60px;
+    }
+    .about{
+        font-size:15px;
+    }
+    .skillstech{
+        font-size:40px;
+    }
+    p{
+        font-size:15px;
+    }
+    .card-title{
+        font-size:20px;
+    }
+    .contactform{
+        max-width:50%;
+    }
+  }
+
+@media (max-width:552px){
+    .hi{
+        font-size:30px;
+    }
+    .occupation{
+        font-size: 60px;
+    }
+    .place{
+        font-size: 30px;
+    }
+    .about{
+        font-size:12px;
+        width:300px
+    }
+    .skillstech{
+        font-size:25px;
+    }
+    p{
+        font-size:12px;
+    }
+    .card-title{
+        font-size:15px;
+    }
+    .contactform{
+        max-width:70%;
+    }
+}
+
+.Homepage{
+    background-color:#ff926a;
+    color:white;
+}
+    
+.firstsec{
+    display:flex;
+    background-color: #ff926a;
+    justify-content: space-between;
+}
+
+.image{
+    position: relative;
+    height:40vw;
+    min-height:10vw;
+    min-width: 10vw;
+    margin-top:5vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.myImg{
+    max-width: 100%;
+    max-height: 100%;
+    min-height:10vw;
+    border-radius: 150px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.content{
+    display: flex;
+    max-width: 50%;
+    align-self: center;
+    height:10%;
+    /* margin-top:4vw; */
+    flex-direction: column;
+    align-items: center; /* Base font size */
+    text-align: center; /* Center-align text */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:80px;
+}
+
+.hi{
+    font-family: "Prata", serif;
+    font-weight: 400;
+    /* font-size:75px; */
+    white-space: nowrap;
+}
+
+.occupation{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    /* font-style: normal;
+    font-size:120px; */
+    text-decoration: underline 0.3vw;
+    color:black;
+    white-space: nowrap;
+}
+
+.place{
+    font-family: "Prata", serif;
+    font-weight: 400;
+    /* font-style: normal;
+    font-size:75px; */
+    word-spacing:1vw;
+    white-space: nowrap;
+}
+
+.about{
+    text-align:center;
+}
+
+.hire{
+    display:flex;
+    font-size:15px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background:bisque;
+    border-color:#ff7a4a;
+    color:black;
+}
+
+.hire:hover{
+    background:#fd713e;
+    border-color:#ff632b;
+    color:white;
+}
+
+.hire:hover:active{
+    background:#ff5415;
+    border-color:#c13604;
+    color:white;
+}
+
+.secondsec{
+    margin-top:100px;
+    text-align: center;
+    width:70vw;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.skillstech{
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline 3px;
+}
+
+p{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.cards{
+    position:relative;
+}
+
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    position:static;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    border-color:#ff5415;
+}
+
+.card-body{
+    display:flex;
+    border-radius: 50px;
+}
+
+
+.card-title{
+    text-align:center;
+    margin:auto;
+}
+
+.icon{
+    height:35px;
+    width:auto;
+}
+
+.contactform{
+    margin-top: 150px;
+    align-self:center;
+    margin-bottom:100px;
+}
+
+label{
+    margin:10px;
+}
+
+.sendmsg{
+    background:bisque;
+    border-color:#ff7a4a;
+    color:black;
+    font-size:15px;
+}
+
+.sendmsg:hover{
+    background:#fd713e;
+    border-color:#ff632b;
+    color:white;
+}
+
+.sendmsg:hover:active{
+    background:#ff5415;
+    border-color:#c13604;
+    color:white;
+}
