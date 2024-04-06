@@ -23,7 +23,7 @@ export default function HomePage(){
           <h1 className="occupation text-center my-1">frontend developer</h1>
           <h1 className="place text-center my-1">based in Delhi</h1>
           <p className="about my-3">Pursuing my bachelors from Hansraj College, As a fresh frontend developer, I embark on a journey where pixels meet purpose. With a canvas of code, I weave creativity into functionality, shaping digital landscapes that engage and inspire.</p>
-          <button className='hire btn btn-success my-3' target="_blank" href=" https://wa.me/918851134420" type='button'>Hire Me!</button>
+          <button className='hire btn btn-success my-3' target="_blank" href="https://wa.me/918851134420" type='button'>Hire Me!</button>
         </div>
         </div>
         <div className="secondsec">
