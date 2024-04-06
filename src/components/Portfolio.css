@@ -1,0 +1,35 @@
+.centered-container{
+    position:relative;
+    display:ruby;
+}
+
+.centered{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.tothe{
+    font-family:"Prata", serif;
+    font-size:3rem;
+    color:rgb(255, 238, 227);
+}
+
+.redirect{
+    font-family:  "Great Vibes", cursive;
+    font-weight: 400;
+    font-size:4rem;
+    margin-left:1rem;
+    color:black;
+    text-decoration:underline 2px;
+    transition:font-size 0.2s;
+}
+
+.redirect:hover{
+    font-size:4.3rem;
+}
+
+.redirect:hover:focus{
+    font-size:3.5rem;
+}
